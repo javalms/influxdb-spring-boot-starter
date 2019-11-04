@@ -23,21 +23,25 @@ public class InfluxDbAutoConfig{
     }
 
     @Bean
+    @ConditionalOnMissingBean
     public BaseMapperInterceptor baseMapperInterceptor(){
         return new BaseMapperInterceptor();
     }
 
     @Bean
+    @ConditionalOnMissingBean
     public QueryAnnotationInterceptor queryAnnotationInterceptor(){
         return new QueryAnnotationInterceptor();
     }
 
     @Bean
+    @ConditionalOnMissingBean
     public StreamQueryInterceptor streamQueryInterceptor(){
         return new StreamQueryInterceptor();
     }
 
     @Bean
+    @ConditionalOnMissingBean
     public PluginSupport pluginSupport(StreamQueryInterceptor streamQueryInterceptor,BaseMapperInterceptor baseMapperInterceptor,QueryAnnotationInterceptor queryAnnotationInterceptor){
         return new PluginSupport()
                 .addPlugin(baseMapperInterceptor)

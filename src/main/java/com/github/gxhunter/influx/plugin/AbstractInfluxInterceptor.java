@@ -1,5 +1,6 @@
 package com.github.gxhunter.influx.plugin;
 
+import com.github.gxhunter.influx.BaseInfluxMapper;
 import com.github.gxhunter.influx.config.InfluxProperties;
 import com.github.gxhunter.util.SpelPaser;
 import org.influxdb.InfluxDB;
@@ -48,7 +49,7 @@ public abstract class AbstractInfluxInterceptor implements ApplicationContextAwa
     /**
      * 插件执行逻辑
      *
-     * @param entityClass {@link com.xm4399.influxdb.BaseInfluxMapper}上的泛型
+     * @param entityClass {@link BaseInfluxMapper}上的泛型
      * @param method      拦截到的方法
      * @param args        方法参数
      * @return 方法返回值

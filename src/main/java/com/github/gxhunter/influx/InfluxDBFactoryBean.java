@@ -10,6 +10,9 @@ import org.springframework.context.ApplicationContextAware;
 
 import java.lang.reflect.Proxy;
 
+/**
+ * @author hunter
+ */
 @Setter
 @Getter
 public class InfluxDBFactoryBean implements FactoryBean<Object>, ApplicationContextAware{

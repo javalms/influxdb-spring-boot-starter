@@ -26,7 +26,7 @@ public @interface StreamQuery{
 
     /**
      * 此注解优先
-     * 可不指定默认为10，也可由{@link Callback#getChunkSize()}指定
+     * 可不指定默认为10，也可由{@link com.github.gxhunter.influx.Callback#getChunkSize()}指定
      * @return 分片大小
      */
     int chunkSize() default -1;

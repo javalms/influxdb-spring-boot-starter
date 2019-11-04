@@ -1,9 +1,11 @@
 package com.github.gxhunter.influx.annotation;
 
+import com.github.gxhunter.influx.Callback;
+
 import java.lang.annotation.*;
 
 /**
- * 只能加在{@link com.xm4399.influxdb.Callback}上
+ * 只能加在{@link Callback}上
  * @author hunter
  */
 @Documented

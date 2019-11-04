@@ -6,7 +6,7 @@
     <artifactId>influxdb-spring-boot-starter</artifactId>
     <version>0.0.1</version>
     <name>influx-spring-boot-starter</name>
-    <description>Demo project for Spring Boot</description>
+    <description>仿mybatis方式操作influxdb。是influx的java声明式客户后端</description>
 
     <properties>
         <java.version>1.8</java.version>
