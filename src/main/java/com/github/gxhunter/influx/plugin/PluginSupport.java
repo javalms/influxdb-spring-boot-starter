@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * 插件支持
+ * @author hunter
  */
 @Slf4j
 public class PluginSupport{

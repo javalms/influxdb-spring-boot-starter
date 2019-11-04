@@ -17,6 +17,7 @@ import java.util.function.Consumer;
 
 /**
  * {@link BaseInfluxMapper}内置的通用方法
+ * @author hunter
  */
 public class BaseMapperInterceptor extends AbstractInfluxInterceptor{
 

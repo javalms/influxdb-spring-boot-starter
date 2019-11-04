@@ -6,6 +6,9 @@ import org.influxdb.InfluxDB;
 import org.influxdb.dto.Point;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * @author hunter
+ */
 @ConfigurationProperties(prefix = "spring.influx")
 @Data
 public class InfluxProperties{

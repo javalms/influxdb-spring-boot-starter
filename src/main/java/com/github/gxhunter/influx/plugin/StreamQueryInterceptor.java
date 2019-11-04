@@ -14,6 +14,7 @@ import java.util.List;
 /**
  * 带有{@link StreamQuery}注解的方法拦截器
  * 用于处理流访问
+ * @author hunter
  */
 public class StreamQueryInterceptor extends AbstractInfluxInterceptor{
     @Override

@@ -23,6 +23,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author hunter
+ */
 public class InfluxClientRegister implements ImportBeanDefinitionRegistrar, EnvironmentAware{
     private Environment environment;
 

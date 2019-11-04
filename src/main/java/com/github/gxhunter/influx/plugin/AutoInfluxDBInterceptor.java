@@ -8,6 +8,7 @@ import org.springframework.context.ApplicationContext;
 /**
  * 自定义插件可直接集成额此接口，添加{@link org.springframework.stereotype.Component}即可生效
  * 相比继承{@link AbstractInfluxInterceptor} 的插件，省去了插件配置的步骤
+ * @author hunter
  */
 public abstract class AutoInfluxDBInterceptor extends AbstractInfluxInterceptor implements ApplicationRunner{
     @Autowired

@@ -10,6 +10,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 
+/**
+ * @author hunter
+ */
 @Configuration
 public class InfluxDbAutoConfig{
 
