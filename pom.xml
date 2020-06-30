@@ -15,6 +15,14 @@
         <influx.version>2.15</influx.version>
         <hunter.version>1.0.5</hunter.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+    
     <developers>
         <developer>
             <id>hunter</id>
@@ -48,10 +56,10 @@
             <artifactId>influxdb-java</artifactId>
             <version>${influx.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.gxhunter</groupId>
-            <artifactId>hunter-spring-boot-starter</artifactId>
-            <version>${hunter.version}</version>
+	<dependency>
+	    <groupId>com.github.GXhunter</groupId>
+	    <artifactId>hunter-boot-starter</artifactId>
+	    <version>1.0.5-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <artifactId>okhttp</artifactId>
